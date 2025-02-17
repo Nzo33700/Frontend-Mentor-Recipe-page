@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    margin: 10vh 10vw;
+    padding: 30px 80px;
+    border-radius: 16px;
+}
+
+
+header {
+    height: 480px;
+    border-radius: 16px;
+    background-image: url(./assets/images/image-omelette.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.875rem;
+    color: hsl(24, 5%, 18%);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: hsl(24, 5%, 18%);
+    letter-spacing: 1px;
+}
+
+article {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 2%;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 2%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+#preparation {
+    color: hsl(332, 51%, 32%);
+}
+
+span {
+    color: hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.563rem;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+#instruction {
+    border-top: 1px solid grey;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#instruction-title {
+    margin-top: 30px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+#nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.weight {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.calories {
+    padding-left: 30px;
+    display: flex;
+    gap: 300px;
+    padding-bottom: 10px;
+}
+
+.carbs {
+    border-top: 1px solid grey;
+    display: flex;
+    gap: 320px;
+    padding: 10px 0 10px 30px;
+}
+
+.protein {
+    border-top: 1px solid grey;
+    padding: 10px 0 10px 30px;
+    display: flex;
+    gap: 308px;
+}
+
+.fat {
+    border-top: 1px solid grey;
+    padding: 10px 0 10px 30px;
+    display: flex;
+    gap: 337px;
+}
+
+@media (max-width: 375px) {
+    main {
+        margin: 0;
+        padding: 30px 40px;
+    }
+}
